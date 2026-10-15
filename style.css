@@ -10,6 +10,11 @@ body {
   background-color: #ecf7e4;
 }
 
+:root {
+    --default-black: #1e2c0f;
+}
+
+/* NAVIGATION STYLE START */
 nav .nav-container {
   width: 70%;
   margin: 2rem auto 0;
@@ -46,5 +51,52 @@ nav .nav-container {
 .nav-container .cta a {
   color: #fafef7;
   background-color: #1e2c0f;
-  padding: .6rem 1rem .7rem;
+  padding: 0.6rem 1rem 0.7rem;
 }
+/* NAVIGATION STYLE END */
+
+/* HERO STYLE START */
+section.hero {
+  /* width: 90%; */
+  margin: auto;
+  color: var(--default-black);
+}
+
+section.hero .hero-con {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 3rem; */
+}
+
+.hero-con .ls {
+  width: 30%;
+  transform: translateX(55%);
+}
+
+.hero-con .ls p.big {
+  font-size: 2.45rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+.hero-con .ls p {
+  font-size: 1.125rem;
+  margin-bottom: 2rem;
+}
+
+.hero-con .ls .start {
+  margin-bottom: 2rem;
+}
+
+.hero-con .ls .start a {
+  color: var(--default-black);
+  border: 2px solid black;
+  padding: 0.6rem 1rem 0.7rem;
+}
+
+.hero-con .ls p.sm {
+    font-size: .85rem;
+}
+
+/* HERO STYLE END */
