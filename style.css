@@ -29,8 +29,7 @@ nav .nav-container {
   justify-content: space-between;
   background-color: #fff;
   color: #1e2c0f;
-    position: sticky;
-
+  position: sticky;
 }
 
 .nav-container .logo a {
@@ -232,7 +231,7 @@ section#solutions .sol-con {
 .sol-con .cards .card .check a {
   color: #777a74;
   font-weight: 600;
-  font-size: .875rem;
+  font-size: 0.875rem;
 }
 
 .sol-con .cards .card .check a span {
@@ -240,16 +239,59 @@ section#solutions .sol-con {
   border-bottom: 1px solid #777a74;
 }
 
-/* SOLUTIONS (BUSINESS...) STYLE END */
+section#solutions div.image {
+  padding: 3.75rem;
+  text-align: center;
+}
 
+section#solutions .start form {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
 
-/* START STYLE START */
+section#solutions .start form .top {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
 
-section.image {
-    padding: 3.75rem;
-    text-align: center;
+section#solutions .start form .top h1 {
+  font-size: 3rem;
+}
+
+section#solutions .start form .top p {
+  font-size: 1.125rem;
+}
+
+section#solutions .start form .data-con {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+section#solutions .start form .data {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
+
+section#solutions .start form .data input {
+  padding: 0.75rem;
+  border: none;
+  outline: none;
+  background-color: #f7faf4;
+  width: 26.25rem;
+}
+
+section#solutions .start form .data-con .submit-btn input {
+    border: 1px solid #000;
+    margin-top: 0.625rem;
+    padding: 0.625rem;
+    
 }
 
 
-/* START STYLE END */
-
+/* SOLUTIONS (BUSINESS...) STYLE END */
