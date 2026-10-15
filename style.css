@@ -6,12 +6,13 @@
   text-decoration: none;
 }
 
-body {
+/* body {
   background-color: #ecf7e4;
-}
+} */
 
 :root {
     --default-black: #1e2c0f;
+    --default-white: #fefffc;
 }
 
 /* NAVIGATION STYLE START */
@@ -60,6 +61,8 @@ section.hero {
   /* width: 90%; */
   margin: auto;
   color: var(--default-black);
+  background-color: #ecf7e4;
+
 }
 
 section.hero .hero-con {
@@ -100,3 +103,48 @@ section.hero .hero-con {
 }
 
 /* HERO STYLE END */
+
+/* NFC STYLE START */
+
+section#nfc {
+    margin-top: 10rem;
+    background-color: var(--default-white);
+}
+
+.nfc-con {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    /* gap: 3rem; */
+}
+
+.nfc-con .rs {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    font-size: 1.125rem;
+}
+
+.nfc-con .rs .top p {
+    font-size: 3rem;
+}
+
+.nfc-con .text {
+    color: #777a74;
+}
+
+.nfc-con .que ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.nfc-con .que ul li span {
+    border: 1px solid black;
+    padding: .2rem .5rem;
+    margin-right: .5rem;
+}
+
+/* NFC STYLE END */
+
