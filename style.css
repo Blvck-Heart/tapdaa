@@ -506,3 +506,42 @@ section.more {
 }
 
 /* MORE STYLE END  */
+
+
+/* FOOTER STYLE START  */
+
+footer {
+    padding: 3rem;
+    width: 70%;
+    margin: auto;
+}
+
+.foot-con {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.foot-con .logo a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #1e2c0f;
+  font-weight: 600;
+}
+
+.foot-con .logo a {
+  font-size: 1.625rem;
+}
+
+.foot-con .rs {
+    display: flex;
+    gap: 1.625rem;
+}
+
+.foot-con .rs div a {
+    color: #777a74;
+}
+
+
+/* FOOTER STYLE END  */
