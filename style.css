@@ -44,6 +44,20 @@ html {
   padding: 0.75rem 1rem;
 }
 
+.que ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  list-style: none;
+  font-size: 1.25rem;
+}
+
+.que ul li span {
+  border: 1px solid black;
+  padding: 0.2rem 0.5rem;
+  margin-right: 0.5rem;
+}
+
 /* MISCEALLEANOUS  END */
 
 /* NAVIGATION STYLE START */
@@ -164,19 +178,6 @@ section#nfc {
 
 .nfc-con .text {
   color: #777a74;
-}
-
-.nfc-con .que ul {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  list-style: none;
-}
-
-.nfc-con .que ul li span {
-  border: 1px solid black;
-  padding: 0.2rem 0.5rem;
-  margin-right: 0.5rem;
 }
 
 /* NFC STYLE END */
@@ -480,11 +481,28 @@ section#pricing .bottom {
     color: #c2c2c2;
 }
 
-
-
-/* section#pricing .cards .single .top img {
-    width: 50px;
-    height: 50px;
-} */
-
 /* PRICE STYLE END  */
+
+/* MORE STYLE START  */
+
+section.more {
+    padding: 3.75rem 0;
+    width: 70%;
+    margin: auto;
+}
+
+.more-con {
+    display: flex;
+    justify-content: space-around;
+    gap: 5.625rem;
+}
+
+.more-con .ls h1 {
+    font-size: 3rem;
+}
+
+.more-con .rs {
+    padding-top: 1.5rem;
+}
+
+/* MORE STYLE END  */
